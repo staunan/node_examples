@@ -1,2 +1,2 @@
 # node_examples
-Demo Repo for learning NodeJS
+Repos contains demo code for various solution for learning NodeJS
