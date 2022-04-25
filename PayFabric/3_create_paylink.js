@@ -19,40 +19,13 @@ let payload = {
     "PostDataType": "CashReceipt",
     "DocType": "3",
     "Status": "1",
-    "ShippingAddress": {
-        "Address1": "123 Test Street", 
-        "Address2": "12 Test Street", 
-        "Address3": "1 Test Street", 
-        "Email": "customer@gmail.com", 
-        "City": "CA", 
-        "State": "CA", 
-        "Country": "USA", 
-        "Zip": "721151", 
-        "Phone1": "8617888454", 
-    }, 
-    "BillingAddress": {
-        "Address1": "line 12", 
-        "Address2": "liner r3", 
-        "Address3": "line 3", 
-        "Email": "customer@gmail.com", 
-        "City": "CA", 
-        "State": "CA", 
-        "Country": "US", 
-        "Zip": "721151", 
-        "Phone1": "8617888454"
-    }, 
     "Notification": {
-        "Type": "SMS", 
-        "SMSTemplate": "!!!Your Payment has been received!!!", 
-        "EmailTemplate": null
+        "Type": "All", 
+        "SMSTemplate": null, 
+        "EmailTemplate": null     
     },
     "NotificationPhone": "8617888454",
-    "UserDefinedFields": [
-        {
-            "Key": "SubTotal", 
-            "Value": "20"
-        }
-    ],
+    "NotificationEmail": "ssantanuberaa@gmail.com",
     "Payment": {
         "CreditCardGateway": "EVO US_CC",
         "AcceptType": 1
